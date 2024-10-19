@@ -1,0 +1,161 @@
+body{
+    text-align: center;  
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.section{
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Nav*/
+
+
+.navibar{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content:  space-between;
+    background-color: rgb(37, 46, 36);;
+    width: 100vw;
+    height:8vh;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item{
+    font-size: 1.2rem;
+    flex: 1 0 120px;   
+}
+
+.nav-item a{
+    text-decoration: none;
+    cursor: default;
+    color: white;
+}
+.nav-item:hover {
+    font-weight: bold;
+    color: #333;
+}
+
+/*Home*/
+#home{
+    background-color: rgb(232, 245, 235);
+    color: rgb(37, 46, 36);
+}
+
+h1:hover , h2:hover{
+    transform: scale(1.5);
+}
+/*Shortner Link*/
+
+#Linkshortner h2{
+    margin-bottom: 90px;
+}
+
+#Linkshortner{
+    background-color: rgb(37, 46, 36);
+    color: rgb(232, 245, 235);
+    
+    gap: 20px;
+    
+
+}
+
+
+.containerlink{
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid grey;
+    overflow: hidden;
+    align-items: center;
+    height: 3rem;
+    width: 70%;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+.link-item{
+    display: flex;
+    height: 2rem;
+    width: 80%;
+    margin: 0 5px;
+
+}
+
+.input{
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.btn{
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover{
+    transform: scale(0.9);
+    
+}
+
+#ShortenLink{
+    background-color: white;
+    color: grey;
+}
+
+/*Form*/
+#Form{
+    background-color: rgb(232, 245, 235);
+    color: rgb(37, 46, 36);
+}
+/*Tictactoe*/
+#TicTacToe{
+    background-color: rgb(37, 46, 36);
+    color: rgb(232, 245, 235);
+    display: flex;
+    justify-content: center;
+}
+
+
+#TicTacToe .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 350px;
+    gap:8px;
+
+}
+
+
+#TicTacToe .case{
+    display: flex;
+    width:30%;
+    height:30%;
+    flex-grow:2;
+    border: none;
+    box-shadow: 0 2px 4px rgb(232, 245, 235);
+    border-radius: 10%;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#reset{
+    margin: 15px;
+    border: none;
+    box-shadow: 0 2px 4px rgb(232, 245, 235);
+    border-radius: 10%;
+    background-color: rgb(232, 245, 235);
+}

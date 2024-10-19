@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title> Flavie's mutliproject </title>
+    </head>
+    <body>
+        <header>
+            <nav class="containernav">                
+                  <ul class="navibar">
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item"><a href="#Linkshortner">Link shortner</a></li>
+                    <li class="nav-item"><a href="#Form">Form</a></li>
+                    <li class="nav-item"><a href="#TicTacToe">Tic Tac Toe</a></li>
+                  </ul>
+              </nav>
+        </header>
+        <main>
+            <!-- HOME -->
+        <section class="section" id="home">
+            <h1>WELCOME TO MY <br> MULTIPROJECT WEBSITE.</h1>
+        </section>
+            <!-- Link shortner -->
+        <section class="section" id="Linkshortner">
+            <h2> Copy your link then click on the generate button</h2>
+            <div class="containerlink">
+                <input class="link-item" type="text" id="link" name="link" placeholder="Your link">
+                <button class="btn link-item" id="generatebtn"> Generate Short Link</button>
+            </div>
+            <div class="containerlink">
+                <p class="link-item" id="ShortenLink">The shorten link will appear here</p>
+                <button class="btn link-item" id="copy" onclick="copytoclipbard()"> Click here to copy</button>
+            </div>
+        </section>
+            <!-- Form -->
+        <section class="section" id="Form">
+            <h2> Please fill this form</h2>
+        </section>
+            <!-- Tic Tac Toe -->
+        <section class="section" id="TicTacToe">
+            <h2> Play Tic Tac Toe !</h2>
+            <p id="result">Will you win?</p>
+            <div class="container">
+                    <button class="case" id="b0" value="0"></button>
+                    <button class="case" id="b1" value="0"></button>
+                    <button class="case" id="b2" value="0"></button>
+                    <button class="case" id="b3" value="0"></button>
+                    <button class="case" id="b4" value="0"></button>
+                    <button class="case" id="b5" value="0"></button>
+                    <button class="case" id="b6" value="0"></button>
+                    <button class="case" id="b7" value="0"></button>
+                    <button class="case" id="b8" value="0"></button>
+                </div>
+            <button id="reset">Reset</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+    </body>
+    
+</html>
